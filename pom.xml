@@ -16,7 +16,7 @@
         <maven-checkstyle.version>3.1.0</maven-checkstyle.version>
         <checkstyle.version>8.29</checkstyle.version>
         <springfox.swagger2.version>3.0.0</springfox.swagger2.version>
-<!--        <swagger.ui.version>2.10.5</swagger.ui.version>-->
+        <swagger.ui.version>2.10.5</swagger.ui.version>
         <commons.lang3.version>3.9</commons.lang3.version>
         <commons.io.version>3.9</commons.io.version>
         <poi.version>4.1.2</poi.version>
@@ -66,11 +66,11 @@
             <artifactId>lombok</artifactId>
             <optional>true</optional>
         </dependency>
-<!--        <dependency>-->
-<!--            <groupId>io.springfox</groupId>-->
-<!--            <artifactId>springfox-swagger-ui</artifactId>-->
-<!--            <version>${swagger.ui.version}</version>-->
-<!--        </dependency>-->
+        <dependency>
+            <groupId>io.springfox</groupId>
+            <artifactId>springfox-swagger-ui</artifactId>
+            <version>${swagger.ui.version}</version>
+        </dependency>
 
         <dependency>
             <groupId>io.springfox</groupId>
